@@ -1,0 +1,216 @@
+
+/* Barre de navigation fixe */
+nav {
+    position: fixed; /* Fixer la barre en haut */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black; /* Fond sombre */
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000; /* S'assurer que la barre est au-dessus du contenu */
+}
+
+/* Style des liens de navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.contenent{
+    background-image:url("image1.jpg");
+    background-size: cover;
+    height:330px;
+    padding: 150px;
+    background-attachment: fixed;
+}
+.t2{
+    color:white;
+    font-size:40px;
+    margin-left:450px;
+    margin-top:-5px;
+}
+.image-rect {
+    position: absolute;
+    left: 3%; /* Décale l'image vers la gauche */
+    top: 55%; /* Centre verticalement */
+    transform: translateY(-50%); /* Ajuste le centrage */
+    width: 500px; /* Largeur du rectangle */
+    height: 450px; /* Hauteur du rectangle */
+    background: url('image2.jpeg') no-repeat center/cover; /* Image rectangle */
+    border: 1px solid black; /* Optionnel : bordure pour visibilité */
+}
+.t3{
+    color:white;
+    font-size:60px;
+    margin-left:350px;
+    margin-top:-90px;
+}
+.social-links {
+    display: flex;
+    gap: 20px; /* Espacement entre les liens */
+}
+
+.social-links a {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #0077b5; /* Couleur LinkedIn au survol */
+}
+
+.social-links a:nth-child(2):hover {
+    color: #333; /* Couleur GitHub au survol */
+}
+
+
+.hero {
+    background-color: rgb(150, 134, 95);
+    color: white;
+    text-align: center;
+    padding: 55px 10px;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+}
+
+.about {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: WHITE;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Espacement entre les paragraphes */
+    gap: 20px; /* Espace entre les deux */
+}
+
+.left, .right {
+    width: 50%; /* Chaque paragraphe prend 50% de l'espace */
+    padding: 20px;
+    background-color: lightgray; /* Juste pour visualiser */
+    border-radius: 10px;
+}
+
+/* Partie gauche - Formulaire */
+.left {
+    background-color: rgba(0, 0, 0, 0.8); /* Fond sombre */
+    color: white;
+    height: 40%;
+}
+
+/* Partie droite - Zone d'affichage */
+.right {
+    background-color: rgba(4, 4, 4, 0.1); /* Fond clair */
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%; /* Ajustez selon vos besoins */
+    height: 60vh; /* Ajustez selon vos besoins */
+}
+
+
+.r {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 colonnes */
+    gap: 20px; /* Espacement entre les éléments */
+    padding: 20px;
+}
+
+.skill-box {
+    padding: 1rem;
+    color: #add;
+    cursor: pointer;
+    background-color: #222121;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.skill-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.img {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-title h3 {
+    color: #fff;
+    margin: 0.5rem;
+}
+
+.skill-icon {
+    width: 50px;
+}
