@@ -39,7 +39,7 @@ nav ul li a:hover {
 .contenent{
     background-image:url("image1.jpg");
     background-size: cover;
-    height:330px;
+    height:530px;
     padding: 150px;
     background-attachment: fixed;
 }
@@ -213,4 +213,117 @@ nav ul li a:hover {
 
 .skill-icon {
     width: 50px;
+}
+
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f3f5eb;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ece0e8;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.popup-content {
+    background-color: #0c0c0c;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+.form-group {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.t4{
+        color:white;
+        font-size:60px;
+        margin-left:250px;
+        margin-top:-90px;
+
+}
+.timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    margin-left:420px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startBtn {
+    background-color: #baf12f;
+    color: #040404;
+}
+
+#pauseBtn {
+    background-color: #dbf73e;
+    color: #000;
+}
+
+#resetBtn {
+    background-color: #cdeb3c;
+    color: #060606;
+}
+
+.cycles {
+    margin-top: 20px;
+    font-size: 18px;
 }

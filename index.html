@@ -6,6 +6,7 @@
     <title>protfolio</title>
     <link rel="stylesheet" href="style.css">
     
+    
 </head>
 <body>
             <nav>
@@ -14,6 +15,9 @@
                     <li><a href="#section2">Projet</a></li>
                     <li><a href="#section4">Compétence</a></li>
                     <li><a href="#section5">Contact</a></li>
+                    <li><a href="#section6">Demande</a></li>
+                    <li><a href="pomodoro.html">Pomodoro</a></li>
+
                 </ul>
             </nav>
             <section id="section1">
@@ -212,7 +216,56 @@
                     </div>
                 </div>
             </section>
-                
+            <section id="section6">
+                <div class="contenent">
+        <h1 class="t3">Demande</h1>
+        <form id="signupForm">
+            <div class="form-group">
+                <label for="firstName">Prénom:</label>
+                <input type="text" id="firstName" name="firstName" class="white-bg" required>
+                <span class="error" id="firstNameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Nom:</label>
+                <input type="text" id="lastName" name="lastName" class="white-bg"  required>
+                <span class="error" id="lastNameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="white-bg" required>
+                <span class="error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" class="white-bg"  required>
+                <span class="error" id="passwordError"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Téléphone:</label>
+                <input type="text" id="phone" name="phone" class="white-bg"  required>
+                <span class="error" id="phoneError"></span>
+            </div>
+            <div class="form-group">
+                <label for="gender">Genre:</label>
+                <select id="gender" name="gender" class="white-bg" required>
+                    <option value="male">Homme</option>
+                    <option value="female">Femme</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date de naissance:</label>
+                <input type="date" id="dob" name="dob"  class="white-bg" required>
+                <span class="error" id="dobError"></span>
+            </div>
+            <div class="form-group">
+                <label for="picture">Photo de profil:</label>
+                <input type="file" id="picture" name="picture" accept="image/*" class="white-bg" required>
+            </div>
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+
+            </section>>
            
             
 </body>
